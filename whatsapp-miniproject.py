@@ -12,11 +12,11 @@ py.press("enter")
 time.sleep(3)
 py.hotkey("ctrl","f")
 time.sleep(2)
-py.write("+977 9818954396")
+py.write("+977 9841822268")
 time.sleep(2)
 py.press("enter")
 time.sleep(3)
-assignment="Hello devansh I am samriddha :>"
+assignment="Hello papa how are you :>"
 py.write(assignment)
 time.sleep(2)
 py.press("enter")
