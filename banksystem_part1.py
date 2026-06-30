@@ -34,8 +34,9 @@ while True:
       account1.withdraw(amount)
 
     case 3:
-      pass
+      account1.show_details
 
     case 4:
       print("Thank you for using the app")
+      break
 
