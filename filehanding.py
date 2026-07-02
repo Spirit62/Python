@@ -5,10 +5,11 @@ filehandling:
   write mode(w): for writing
   append(a): updating
   create(x): file create
-
-
+r+
+w+ write + read
+a+ append+read
 """
 
-f=open("newfile.txt","w")
+f=open("newfile.txt","r")
 
-f.write("hello2")
+print(f.read())

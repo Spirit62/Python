@@ -17,13 +17,15 @@
 # greet()
 
 
-class Calculator:
+# class Calculator:
 
 
-  @staticmethod
-  def add(a,b): #no parameter so no object
-    return a+b
+#   @staticmethod
+#   def add(a,b): #no parameter so no object
+#     return a+b
   
 
-print(Calculator.add(1,2))
+# print(Calculator.add(1,2))
+
+
   
