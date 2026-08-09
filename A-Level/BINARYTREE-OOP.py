@@ -71,3 +71,44 @@ def DelChildNode(root,target,parent=None):
     return DelChildNode(root.left,target,root)
   else:
     return DelChildNode(root.right,target,root)
+
+def InOrderTraversal(root):
+
+  if root:
+
+    InOrderTraversal(root.left)
+    print(root.data)
+    InOrderTraversal(root.right)
+
+def PreOrderTraversal(root):
+
+  if root:
+
+    print(root.data)
+    PreOrderTraversal(root.left)
+    PreOrderTraversal(root.right)
+
+def PostOrderTraversal(root):
+
+  if root:
+
+    PostOrderTraversal(root.left)
+    PostOrderTraversal(root.right)
+    print(root.data)
+
+
+root = createNode(10)
+AddChildNode(root, 5)
+AddChildNode(root, 15)
+AddChildNode(root, 3)
+AddChildNode(root, 7)
+
+print("\nIn-Order Traversal:")
+InOrderTraversal(root)
+
+print("\n\nPre-Order Traversal:")
+PreOrderTraversal(root)
+
+print("\n\nPost-Order Traversal:")
+PostOrderTraversal(root)
+print()
